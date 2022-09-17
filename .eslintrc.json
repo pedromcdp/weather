@@ -1,0 +1,12 @@
+{
+  "extends": ["prettier", "plugin:tailwindcss/recommended"],
+  "plugins": ["prettier", "tailwindcss"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ]
+  }
+}
